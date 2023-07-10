@@ -104,7 +104,7 @@
 
 \math@define@key{
   title = {
-    default = {《数值计算方法训练》},
+    default = {《数据科学实践》},
   },
   sub-title = {
     default = {实习报告},
@@ -225,7 +225,7 @@
 
 % 页眉
 \pagestyle{fancy}
-\lhead{课程名称：数值计算方法训练}
+\lhead{课程名称：数据科学实战}
 \chead{姓名：\math@student}
 \rhead{学号：\math@student@id}
 \setlength{\headheight}{13pt}
