@@ -104,7 +104,7 @@
 
 \math@define@key{
   title = {
-    default = {《数据科学实践》},
+    default = {《数据分析实践》},
   },
   sub-title = {
     default = {实习报告},
@@ -184,7 +184,7 @@
 		name = {,、},
 		% number用于设置章节编号数字输出格式
 		% 输出section编号为中文
-		number = \chinese{section},
+		number = 实验\chinese{section},
 		% beforeskip用于设置章节标题前的垂直间距
 		% ex为当前字号下字母x的高度
 		% 基础高度为1.0ex，可以伸展到1.2ex，也可以收缩到0.8ex
@@ -225,7 +225,7 @@
 
 % 页眉
 \pagestyle{fancy}
-\lhead{课程名称：数据科学实战}
+\lhead{课程名称：数据分析实践}
 \chead{姓名：\math@student}
 \rhead{学号：\math@student@id}
 \setlength{\headheight}{13pt}
