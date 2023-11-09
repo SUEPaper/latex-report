@@ -169,7 +169,6 @@
 % \newcommand{\粗体}{\bfseries}
 % \newcommand{\斜体}{\itshape}
 
-
 % 设置章节样式
 \ctexset{
   % 需要使用ctexart文类，否则报错键不存在
@@ -205,7 +204,8 @@
 		aftername = \hspace{0pt}
   },
   subsubsection = {
-    number = \arabic{subsubsection},
+    name = {,.{ } },
+    number = \alph{subsubsection},
     % 黑体小四
     format+ = \zihao{-4} \songti \raggedright,
 		beforeskip = 1.0ex plus 0.2ex minus .2ex,
@@ -266,3 +266,4 @@
   \setcounter{page}{1}
 }
 
+\renewcommand{\contentsname}{{\hfill \zihao{3} \bfseries 目\quad 录 \hfill}}
